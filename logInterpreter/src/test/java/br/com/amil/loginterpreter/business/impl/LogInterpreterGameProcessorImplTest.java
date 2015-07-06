@@ -42,12 +42,4 @@ public class LogInterpreterGameProcessorImplTest {
         game = this.gameProcessorImpl.process(line, game, gamesList);
         Assert.assertNotNull(game);
     }
-    
-    @SuppressWarnings({"static-access", "unchecked"})
-    @Test(expected = ParseException.class)
-    public void processException() throws ParseException{
-        this.gameProcessorImpl.process(Mockito.anyString(), Mockito.any(Game.class), Mockito.anyList());
-    }
-    
-    
 }
