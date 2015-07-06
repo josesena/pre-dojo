@@ -1,2 +1,5 @@
-Coloque aqui suas instruções ou comentários que ache útil/relevantes para possamos ler 
-quando estivermos avaliando a sua solução
+-Desenvolvimento do TestaAmil utilizando o sistena de empacontamento Apache Maven
+-PadÃ£o Regex para encontrar combinaÃ§Ã£o em String
+-Design Pattern - Command : Command Ã© para simular um processamento Batch. Adiciona os processamentos em 
+uma lista  e depois ele processa de acordo com a implementalÃ§Ã£o
+-Mockito e Juni como Frameworks de testes unitÃ¡rios
